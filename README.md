@@ -44,7 +44,7 @@ WHERE CAST(d.d AS DATE) BETWEEN '2017-06-01' AND '2017-06-30'
 - В `dim_stores` отсутствовал `store_id = 47`, хотя он использовался в `fct_cheque`
 - Некоторые строки из фактов не находили соответствий в справочниках при `JOIN`
 
-> См. файл [`data_fix.sql`](data_fix.sql)](sql/data_fix.sql) для исправления данных, а исправленная процедура — в [`01_check_discrepancy.sql`](sql/01_check_discrepancy.sql).
+> См. файл [`data_fix.sql`](data_fix.sql) для исправления данных, а исправленная процедура — в [`01_check_discrepancy.sql`](01_check_discrepancy.sql).
 
 ---
 
