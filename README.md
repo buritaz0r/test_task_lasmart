@@ -92,7 +92,8 @@ WHERE CAST(d.d AS DATE) BETWEEN '2017-06-01' AND '2017-06-30'
 AND g.group_name IN (
     SELECT TRIM(value)
     FROM STRING_SPLIT(@good_group_name, ',')
-)```
+)
+```
 
 Это позволяет передавать список групп в виде строки через запятую (например, 'БАДы,Косметика') и корректно фильтровать товары по каждой из них.
 
