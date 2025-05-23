@@ -172,4 +172,4 @@ ORDER BY [Доля продаж, %] DESC;
 | `d` (дата)   | `dim_date`   | Дата продажи                          |
 
 ---
-> См. файл [`04_sales_share_by_group.sql`](04_sales_share_by_group.sql)
+> См. файл [`04_sales_share_by_group.sql`](04_sales_share_by_group.sql) с кодом процедуры.
