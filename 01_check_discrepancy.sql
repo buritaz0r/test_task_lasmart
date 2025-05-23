@@ -19,7 +19,7 @@ BEGIN
 		g.good_name AS [Номенклатура],
 		SUM(f.quantity) AS [Продажи шт.],
 		SUM(f.sale_grs) AS [Продажи руб., с НДС],
-		SUM(f.cost_net) AS [Закупка руб., с НДС]
+		SUM(f.cost_net) AS [Закупка руб., без НДС]
 	FROM fct_cheque f
 	JOIN dim_goods g ON g.good_id = f.good_id
 	JOIN dim_stores s ON s.store_id = f.store_id
