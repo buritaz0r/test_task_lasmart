@@ -71,7 +71,6 @@ WHERE CAST(d.d AS DATE) BETWEEN '2017-06-01' AND '2017-06-30'
   Показывает, на сколько процентов продажа выше закупки:  
   `(Маржа / SUM(cost_net)) * 100`
 
----
 
 > См. файл [`02_avg_cost_margin_markup.sql`](02_avg_cost_margin_markup.sql) с кодом процедуры.
 
